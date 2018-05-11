@@ -1,0 +1,112 @@
+body {
+   background-color: #20232a;
+}
+
+h1 {
+  color: #000;
+  margin-bottom: 40px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  margin-bottom: 50px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.App-title {
+  font-size: 1.5em;
+  color: #FFF;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+
+.container {
+  width: 100%;
+  margin-top: 100px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+  flex-direction: column;
+}
+
+#game {
+  width: 300px;
+  height: 300px;
+  background-color: #808080;
+  border: 2px solid #000;
+  border-radius: 15px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  -o-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.item {
+  width: 30%;
+  height: 30%;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 10px;
+  color: #000;
+  font-size: 40px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+}
+
+#btn {
+  margin-top: 50px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #61dafb;
+  cursor: pointer;
+}
+
+#title {
+  color: #fff;
+}
